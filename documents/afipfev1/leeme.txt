@@ -1,0 +1,14 @@
+Ejemplo en codigo php para conectarse y obtener cae mediante uso de web service Afip en modo homologacion (testing).
+Este programa se entrega ABSOLUTAMENTE SIN GARANTIA.
+
+Los codigos fuentes incluidos son una adaptacion de ejemplos encontrados en la web.
+2015 Pablo <pablin.php@gmail.com>
+
+Requisitos:
+* generar certificados 'wsass - certificados homologacion' y autorizacion a servicio wsfe (web service factura electronica) en Afip
+* habilitar en php.ini extensiones php_soap y php_openssl
+* configurar directorio principal y nombre de archivos .crt y .key en wsaa.class.php
+* configurar directorio principal y CUIT emisor en wsfev1.class.php
+
+
+
